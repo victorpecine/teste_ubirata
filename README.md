@@ -13,9 +13,9 @@
 
 1. Análise exploratória e estatística dos dados
 2. Treino e teste de modelos com os dados disponíveis das safras de 2014 a 2018
-a. XGBoost Regressor
-b. Random Forest com RandomizedSearchCV
-c. Random Forest com BayesSearchCV
+- XGBoost Regressor
+- Random Forest com RandomizedSearchCV
+- Random Forest com BayesSearchCV
 3. Análise das métricas e definição do modelo com melhor performance
 4. Estimativa da TCH (toneladas de cana por hectare) na safra de 2019 com o modelo escolhido
 

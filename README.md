@@ -1,3 +1,8 @@
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
+
+
 # Objetivos
 
 1. Realizar a exploração do arquivo “dataset_tch.csv” com análises estatísticas das variáveis, gráficos de distribuição, etc.
@@ -13,6 +18,17 @@ b. Random Forest com RandomizedSearchCV
 c. Random Forest com BayesSearchCV
 3. Análise das métricas e definição do modelo com melhor performance
 4. Estimativa da TCH (toneladas de cana por hectare) na safra de 2019 com o modelo escolhido
+
+# Dataset
+**1906 rows × 18 columns**
+- bloco: índice da região de plantação e colheita de cana-de-açúcar
+- talhao: índice da sub-região de plantação e colheita de cana-de-açúcar (Um bloco contém diversos talhões)
+- area: área do talhão
+- safra: ano que a cana-de-açúcar de cada talhão foi colhida
+- data_colheita: data em que a cana-de-açúcar foi colhida
+- TCH: Toneladas de cana-de-açúcar colhida por hectare
+- NDVI_b01: NDVI é o nome dado a um popular índice de vegetação, e o “b01” corresponde ao índice no primeiro mês antes da colheita
+- NDVI_bN: NDVI no N-ésimo mês antes da colheita
 
 # Desenvolvimento
 ## Análise exploratória e estatística dos dados

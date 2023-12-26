@@ -67,9 +67,10 @@ Apesar do modelo XGBoost Regressor ter o maior tempo de execução no treino e t
 erro nas modelagens 2 e 3 foram satisfatórias.
 Portanto, recomenda-se a aplicação do modelo XGBoost Regressor 2 com a target TCH e adição da feature mil_tonelada_cana (produção total por talhão) para estimativa das toneladas de cana por hectare (em cada bloco) na safra 2019.
 Ainda destaca-se que o modelo indicado teve a maior estimativa de TCH e produção total para 2019, sendo essas de 38,48 mil toneladas e 3,02 milhões de toneladas respectivamente.
-![Produção total de cana (em milhões de toneladas)](https://i.ibb.co/jGbqYhV/Produ-o-total-de-cana-em-milh-es-de-toneladas.png)
 
 ![TCH por safra em mil toneladas (2019 por XGBRegressor)](https://i.ibb.co/7YfQ4SV/TCH-por-safra-em-mil-toneladas-2019-por-XGBRegressor.png)
+
+![Produção total de cana (em milhões de toneladas)](https://i.ibb.co/jGbqYhV/Produ-o-total-de-cana-em-milh-es-de-toneladas.png)
 
 # Referências bibliográficas
 1. Felipe Maldaner, L., de Paula Corrêdo, L., Fernanda Canata, T., & Paulo Molin, J. (2021). Predicting the sugarcane yield in real-time by harvester engine parameters and machine learning approaches. Computers and Electronics in Agriculture, 181(105945), 105945. doi:[10.1016/j.compag.2020.105945](https://www.sciencedirect.com/science/article/abs/pii/S0168169920331501)
